@@ -3,26 +3,51 @@
     margin: 0;
 }
 
-header h1 {
-    background-color: #ffb4b0;
-    text-align: center;
-    font-family: 'Ballet', cursive;
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.titulo {
     font-family: 'Birthstone Bounce', cursive;
 }
 
-header div nav ul a li {
+
+
+.contenedor {
+    display: flex;
+    background-color: #ffb4b0;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.navegador ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+
+.navegador ul li a:hover{
     background-color:#d757f6;
-    color: black;
-    text-decoration: none;
-    display:inline-block
+    border-radius: 10px;
 }
 
 ul{
     text-align: center;
 }
 
-body div.imagenes-inicio img {
-    width: 300px;
-    height: 250px;
-    padding: 50px 200px;
+.imagenes-inicio{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    gap: 35px;
+    
+} 
+
+.imagenes-inicio img{
+    width: 200px;
+    height: 150px;
+
 }
